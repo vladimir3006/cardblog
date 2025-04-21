@@ -1,0 +1,35 @@
+---
+import "./styles/global.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/public/images/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Blog Card</title>
+	</head>
+	
+	<body>
+		<main class="bg-yellow h-screen flex justify-center items-center">
+			<article class="w-[360px] bg-white rounded-xl p-6 border-1 space-y-6 coustomshadow">
+				<header class="">
+					<img class="rounded-xl" src="/public/images/illustration-article.svg" alt="imagen de cabecera">
+				</header>
+				<div class="">
+					<section class="space-y-4">
+						<span class="inline-block font-figtree text-sm font-bold px-4 py-1 text-gray-950 bg-yellow rounded-sm">Learning</span>
+						<p class="text-xs font-figtree text-gray-950">Publicado el 21 de diciembre de 2023</p>
+						<h1 class="text-2xl text-gray-950 font-figtree font-bold">Fundamentos HTML & CSS</h1>
+						<p class="text-base font-normal font-figtree text-gray-500">Estos lenguajes son la columna vertebral de cada sitio web y definen la estructura, el contenido y la presentación.</p>
+					</section>
+
+					<footer class="flex items-center mt-6 gap-2">
+						<img class="w-10 text-gray-950" src="/public/images/image-avatar.webp" alt="imagen de usario">
+						<p class="font-figtree text-sm font-bold ">Vladimir Valladares</p>
+					</footer>
+				</div>
+			</article>
+		</main>
+	</body>
+</html>
