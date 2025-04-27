@@ -8,6 +8,6 @@ export default defineConfig({
         plugins: [tailwindcss()],
       },
 
-      output: 'static',
-      base: "/cardblog/",
+      site: 'https://vladimir3006.github.io',
+      base: '/cardblog/',
 });
